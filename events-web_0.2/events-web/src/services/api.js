@@ -3,7 +3,7 @@ import axios from 'axios';
 export const TOKEN_KEY = 'token';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://events-web-phi.vercel.app/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://events-api-0-2.onrender.com/api',
   timeout: 15000,
 });
 
